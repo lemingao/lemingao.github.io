@@ -40,19 +40,39 @@
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
-;/* Custom font: EB Garamond */
+;/* Custom font: EB Garamond — 全站覆盖 */
+html,
 body,
 .page__content,
 .page__title,
+.page__lead,
 .sidebar,
 .author__name,
 .author__bio,
+.author__urls,
+.author__urls a,
 .archive__item-title,
-h1, h2, h3, h4, h5, h6 {
+.archive__item-excerpt,
+.masthead,
+.greedy-nav,
+.greedy-nav a,
+.site-title,
+.site-subtitle,
+.toc,
+.toc__menu,
+.nav__title,
+.nav__list,
+h1, h2, h3, h4, h5, h6,
+p, li, a, span, div {
   font-family: "EB Garamond", Garamond, Georgia, serif;
 }
 
-/* Garamond 看起来偏小,稍微放大一点 */
+/* 代码相关保持等宽,no Garamond 接管 */
+code, pre, kbd, samp, tt,
+.highlight, .highlight * {
+  font-family: Menlo, Monaco, "Courier New", monospace !important;
+}
+
 .page__content {
   font-size: 1.05em;
 }
