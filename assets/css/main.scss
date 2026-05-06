@@ -40,4 +40,19 @@
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
-;
+;/* Custom font: EB Garamond */
+body,
+.page__content,
+.page__title,
+.sidebar,
+.author__name,
+.author__bio,
+.archive__item-title,
+h1, h2, h3, h4, h5, h6 {
+  font-family: "EB Garamond", Garamond, Georgia, serif;
+}
+
+/* Garamond 看起来偏小,稍微放大一点 */
+.page__content {
+  font-size: 1.05em;
+}
